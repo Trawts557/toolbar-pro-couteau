@@ -127,6 +127,8 @@ class _EdadViewState extends State<EdadView> {
   Widget build(BuildContext context) {
     return AnimatedContainer(
       duration: const Duration(milliseconds: 500),
+      width: double.infinity,
+      height: MediaQuery.of(context).size.height,
       color: colorFondo,
       child: SingleChildScrollView(
         child: Center(

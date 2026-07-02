@@ -104,7 +104,8 @@ class _ClimaViewState extends State<ClimaView> {
 
               const Text(
                 "¿Como está el clima en RD?",
-                style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
+                style: TextStyle(fontSize: 26, fontWeight: FontWeight.bold),
+                textAlign: TextAlign.center,
               ),
 
               const SizedBox(height: 20),

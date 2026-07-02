@@ -108,8 +108,9 @@ class _UniversidadesViewState extends State<UniversidadesView> {
               SizedBox(height: 30),
 
               Text(
-                "Encuentra tu universidad",
-                style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
+                "Universidades segun pais",
+                style: TextStyle(fontSize: 26, fontWeight: FontWeight.bold),
+                textAlign: TextAlign.center,
               ),
 
               SizedBox(height: 10),

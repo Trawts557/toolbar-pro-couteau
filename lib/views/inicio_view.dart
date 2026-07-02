@@ -9,15 +9,16 @@ class InicioView extends StatelessWidget {
       child: Center(
         child: Column(
           children: [
-            const SizedBox(height: 20),
+            const SizedBox(height: 40),
             const Text(
               "Bienvenido a la caja de herramientas",
-              style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+              style: TextStyle(fontSize: 26, fontWeight: FontWeight.bold),
+              textAlign: TextAlign.center,
             ),
-            const SizedBox(height: 20),
+            const SizedBox(height: 20),     
             SizedBox(
-              height: 300,
-              width: 300,
+              height: 400,
+              width: 400,
               child: Image.asset("assets/herramientas.png"),
             ),
           ],
