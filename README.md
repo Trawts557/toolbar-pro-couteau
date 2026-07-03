@@ -40,13 +40,14 @@ El proyecto fue estructurado por vistas para mantener una organización clara y 
 lib/
  ├── main.dart
  ├── views/
- │    ├── home_view.dart
- │    ├── gender_view.dart
- │    ├── age_view.dart
- │    ├── universities_view.dart
- │    ├── weather_view.dart
+ │    ├── inicio_view.dart
+ │    ├── genero_view.dart
+ │    ├── edad_view.dart
+ │    ├── universidades_view.dart
+ │    ├── clima_view.dart
  │    ├── wordpress_view.dart
- │    └── pokemon_view.dart
+ │    ├── pokemon_view.dart
+ │    └── acerca_view.dart
 ```
 
 ---
